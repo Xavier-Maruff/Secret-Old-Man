@@ -7,4 +7,5 @@ Because this is not yet on the Chrome store, the only way to install is through 
 * Clone this repo
 * Go to `chrome://extensions`, and make sure that the developer mode toggle is active
 * Click `Load unpacked`, and select the directory of this repo
+<br>
 You'll be searching for old men in no time!
