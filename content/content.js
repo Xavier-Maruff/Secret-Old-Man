@@ -18,8 +18,9 @@ const deleteOldMan = _=> {
 }
 
 const createOldMan = _=> {
-    const nodes = document.querySelectorAll('*');
+    const nodes = document.querySelectorAll('body *:not(script)');
     const oldManNode = nodes[random(nodes.length)];
+    console.log(oldManNode);
 
     const oldManImg = document.createElement("img");
     oldManImg.src = chrome.extension.getURL("/icons/icon.png");
